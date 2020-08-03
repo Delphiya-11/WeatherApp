@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
         //The Hamburger icon is applied to the action bar for working with the nav drawer
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.violet)));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.blueGrey)));
 
         //On clicking of any menu items, actions will be performed accordingly
         nv.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {

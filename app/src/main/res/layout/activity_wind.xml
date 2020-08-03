@@ -10,8 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/wind_wallpaper"
-        android:alpha="0.6">
+        android:background="@drawable/wind_wallpaper">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/windCardView"
@@ -23,15 +22,15 @@
             android:layout_marginStart="30dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="12dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="30dp"
             android:layout_marginRight="8dp"
             android:clickable="false"
             android:foreground="?attr/selectableItemBackground"
             android:stateListAnimator="@anim/animation"
             android:textAlignment="center"
-            app:cardBackgroundColor="#45cacccf"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="5dp"
+            app:cardBackgroundColor="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
             app:cardUseCompatPadding="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +47,7 @@
                 android:layout_marginTop="33dp"
                 android:alpha="1"
                 android:textAlignment="center"
-                android:textColor="#e0ffff"
+                android:textColor="#ffffff"
                 android:textSize="25dp"
                 android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
@@ -61,10 +60,10 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="27dp"
+            android:layout_marginStart="30dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="46dp"
-            android:layout_marginEnd="24dp"
+            android:layout_marginEnd="30dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="26dp"
             android:alpha="1"
